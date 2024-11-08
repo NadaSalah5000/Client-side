@@ -1,0 +1,303 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+
+
+header {
+    background-color: #0a152f;
+    height: 8%;
+    color: aliceblue;
+    width: 100%;
+    margin: -8px 8px 0 -8px;
+}
+
+.head {
+    text-align: center;
+}
+
+header div {
+    display: inline-block;
+    width: 97%;
+}
+
+header div h1 {
+    display: inline-block;
+    padding: 10px;
+}
+ 
+
+.log-in {
+    display: inline-block;
+    width: 35px;
+}
+
+/* ........... */
+nav {
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}
+
+#nav-items {
+    list-style-type: none; 
+    background-color: #0a152f;
+    margin-left: -8px;
+    padding: 0;
+    width: 100%;
+
+
+    margin-top: -20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    font-size: large;
+    padding: 15px 20px;
+    color: aliceblue;
+}
+
+nav a:hover {
+    background-color: #233766;
+}
+
+a:visited {
+    color: aliceblue;
+}
+
+/* .............. */
+.home {
+    opacity: 0.15;
+    position: absolute;
+    left: 0;
+    top: 0; 
+    width: 100%;
+    height: 3500px;
+    z-index: -10;
+}
+
+ 
+.women{
+    background-image: url('../M-resources/women1.jpg');
+    background-repeat: no-repeat;
+    background-size:  cover;
+    box-shadow: 0 0 10px 10px white inset;
+    width: 100%;
+    height: 800px;
+    opacity: 0.85;
+    
+}
+
+h2 {
+    padding: 10px;
+    border-left: #233766 solid 5px;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+h2>a {
+    font-size: medium;
+    position: absolute;
+    right: 10%;
+    padding-top: 3px;
+}
+
+h2>a:hover {
+    text-decoration: underline;
+}
+
+main p {
+    width: 350px;
+    font-weight: bold;
+}
+
+main a>img {
+    width: 350px;
+    height: 200px;
+    opacity: 1;
+    transition: .5s ease; 
+}
+
+.overlay {
+    text-align: center;
+    font-weight: bold;
+    opacity: 0;
+    visibility: none;
+    transition: 0.5s ease;
+    position: relative;
+    top: -60%;
+}
+
+.article:hover img {
+    opacity: 0.3;
+
+}
+
+.article:hover .overlay {
+    opacity: .8;
+    visibility: visible; 
+}
+
+main a {
+    text-decoration: none;
+}
+
+main a:visited {
+    color: #0a152f;
+}
+
+.sector {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main {
+    color: #0a152f; 
+}
+
+.about-head {
+    font-size: x-large;
+    display: inline-block;
+}
+
+.about-content {
+    width: auto;
+    padding-bottom: 50px;
+
+}
+.about{
+ text-align: center;
+}
+ 
+/* ........... */
+
+footer {
+    background-color: #0a152f;
+    color: aliceblue;
+    margin: -8px 8px 0 -8px;
+    height: 8%;
+    width: 100%;
+}
+
+.log-in-footer>div {
+    background-color: #0a152f;
+    color: aliceblue;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.foot {
+    text-align: center;
+    padding: 5px;
+
+}
+
+.contact {
+    text-align: center;
+
+}
+
+footer img {
+
+    display: inline-block;
+    padding: 15px;
+    width: 33px;
+}
+
+
+
+/* .................... */
+
+.log-pic{
+    
+    opacity: 0.15;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+}
+.sign-pic {
+
+    opacity: 0.15;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 1300px ;
+    z-index: -10;
+}
+
+.log,
+.sign-up {
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin-top: 3%;
+}
+
+form {
+    width: 25%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 5%;
+    padding: 15px;
+    border: #0a152f solid 2px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px #0a152f;
+}
+
+label {
+    display: block;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 10px;
+}
+
+input {
+    width: 80%;
+    height: 20px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#submit {
+    color: aliceblue;
+    background-color: #0a152f;
+}
+
+.submitting {
+    margin: 10px;
+    width: 25%;
+    position: relative;
+    left: 65%;
+}
+
+.log-in-main {
+    margin-top: 5%;
+
+}
+
+.submitting a {
+    position: relative;
+    left: 30%;
+    color: #0a152f;
+    font-size: 14px;
+    text-decoration: underline;
+}
